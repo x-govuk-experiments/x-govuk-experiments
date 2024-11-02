@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>x-govuk patterns gallery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+    <div class="container mt-5">
+
+        <div class="toggle-container" role="group" aria-labelledby="toggleLabel">
+            <span class="toggle-label me-2" id="toggleLabel">Dark Mode:</span>
+            <label class="switch">
+                <input type="checkbox" id="modeToggle" aria-label="Toggle dark mode">
+                <span class="slider" aria-hidden="true"></span>
+            </label>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <h4 class="mb-4">    
+                    A gallery showcasing design system components and patterns from some of the UK public sector departments. 
+                </h4>
+
+                <p class="mb-4"> An experiment by <a href="https://bsky.app/profile/wholistics.bsky.social" target="_blank" rel="noopener noreferrer" style="color: #505a5f;">@arindra</a>. It is not affiliated with any government departments. Grateful to the departments working in the open. 
+                </p>    
+            </div>
+        </div>
+
+        <nav class="d-flex justify-content-between align-items-center mb-4" aria-label="Main navigation">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="patterns.html" aria-current="page">Patterns</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="components.html">Components</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="row">
+            <div class="col-md-8">
+                <p class="mb-4">Featuring patterns from <span id="organisationNames" aria-live="polite" aria-atomic="true"></span>.</p>
+                <p>Last updated 02 November 2024</p>
+                <!-- Search Bar -->
+                <div class="mb-4">
+                    <!-- <label for="searchInput" class="form-label">Search components or organisations</label> -->
+                    <input id="searchInput" type="text" class="form-control search-input" placeholder="Search patterns or organisations" aria-label="Search components or organisations">
+                </div>
+            </div>
+        </div>
+        
+        <div id="patternList" class="row" aria-live="polite" aria-atomic="true">
+            <!-- Patterns will be injected here by JavaScript -->
+        </div>
+    </div>
+
+    <footer>
+        <p class="mb-1">
+            <strong>Disclaimer:</strong> This project is not affiliated with GOV.UK or any UK government department in any official capacity.
+            The data on this site was last updated on 02 November 2024. It may contain inaccuracies or outdated information and is intended for informational purposes only. Please do not use this as an official source or rely on it as the sole truth. </p>
+        <p class="mb-0">
+            Personal open-source project developed by <a href="https://bsky.app/profile/wholistics.bsky.social" target="_blank" rel="noopener noreferrer">@arindra</a>. Hosted in Github. If you find any errors or have feedback or for contributions, please create a <a href="https://github.com/x-govuk-experiments/x-govuk-experiments">pull request</a>
+        </p>
+    </footer>
+
+    <script src="patterns.js"></script>
+    <script>
+        // Light/Dark Mode Toggle
+        const modeToggle = document.getElementById('modeToggle');
+
+        // Check local storage for the dark mode preference
+        const isDarkMode = localStorage.getItem('darkMode') === 'true';
+        if (isDarkMode) {
+            document.body.classList.add('dark-mode');
+            modeToggle.checked = true;
+        }
+
+        modeToggle.addEventListener('change', () => {
+            document.body.classList.toggle('dark-mode');
+            document.body.classList.toggle('light-mode');
+
+            // Update local storage based on the current mode
+            localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+        });
+
+        // Function to populate organisation names
+        function populateOrganisationNames(data, orgVariantCount) {
+            const organisationLinks = data.map(item => {
+                const variantCount = orgVariantCount[item.name] || 0; // Get the variant count for each organisation
+                return `<a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.name} (${variantCount})</a>`;
+            }).join(', ');
+
+            document.getElementById('organisationNames').innerHTML = organisationLinks;
+        }
+
+        // Main execution function
+        async function main() {
+            const data = await fetchData();
+            if (data) {
+                const { patternMap, orgVariantCount } = groupPatternsByName(data); // Destructure both values
+
+                // Populate organisation names with variant count
+                populateOrganisationNames(data, orgVariantCount);
+
+                // Initial display of patterns
+                displayPatterns(patternMap);
+
+                // Search functionality
+                const searchInput = document.getElementById("searchInput");
+                searchInput.addEventListener("input", (event) => {
+                    const searchTerm = event.target.value.toLowerCase().trim();
+                    displayPatterns(patternMap, searchTerm);
+                });
+            }
+        }
+
+        // Run the main function
+        main();
+    </script>
+</body>
+</html>
