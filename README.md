@@ -1,10 +1,9 @@
-Explore various design components published by different organisations within the UK public sector. It aggregates links to these components, allowing users to search for specific items or organisations quickly.
+An experimental project showcasing design components and patterns published by some of the organisations within the UK public sector. It aggregates links to these components and patterns, allowing users to search for specific items or organisations quickly.
 
 Disclaimer: Projects not affiliated with GOV.UK or any UK government department in any official capacity.
 
 
 ### Upcoming
-- Introducing pattern
 - Adding more components from [these list](https://github.com/ctdesign/gov-design-systems-list)
 
 ## Contributing
