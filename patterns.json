@@ -1,468 +1,597 @@
 {
-    "organisations": [
-      {
-        "name": "NHS",
-        "url": "https://service-manual.nhs.uk/design-system/patterns",
-        "categories": [
-          {
-            "title": "Tasks",
-            "links": [
-              {
-                "name": "Ask users for their NHS number",
-                "href": "https://service-manual.nhs.uk/design-system/patterns/ask-users-for-their-nhs-number"
-              },
-              {
-                "name": "Help users decide when and where to get care (care cards)",
-                "href": "https://service-manual.nhs.uk/design-system/patterns/help-users-decide-when-and-where-to-get-care"
-              },
-              {
-                "name": "Reassure users that a page is up to date",
-                "href": "https://service-manual.nhs.uk/design-system/patterns/reassure-users-that-a-page-is-up-to-date"
-              }
-            ]
-          },
-          {
-            "title": "Page types",
-            "links": [
-              {
-                "name": "A to Z page",
-                "href": "https://service-manual.nhs.uk/design-system/patterns/a-to-z-page"
-              },
-              {
-                "name": "Mini-hub",
-                "href": "https://service-manual.nhs.uk/design-system/patterns/mini-hub"
-              },
-              {
-                "name": "Start page",
-                "href": "https://service-manual.nhs.uk/design-system/patterns/start-page"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "MoJ",
-        "url": "https://design-patterns.service.justice.gov.uk/patterns/",
-        "categories": [
-          {
-            "title": "Patterns",
-            "links": [
-              {
-                "name": "Add to a list",
-                "href": "https://design-patterns.service.justice.gov.uk/patterns/add-to-a-list"
-              },
-              {
-                "name": "Filter a list",
-                "href": "https://design-patterns.service.justice.gov.uk/patterns/filter-a-list"
-              },
-              {
-                "name": "Get help",
-                "href": "https://design-patterns.service.justice.gov.uk/patterns/get-help"
-              },
-              {
-                "name": "Upload files",
-                "href": "https://design-patterns.service.justice.gov.uk/patterns/upload-files"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "GOV.UK",
-        "url": "https://design-system.service.gov.uk/patterns/",
-        "categories": [
-          {
-            "title": "Ask users for…",
-            "links": [
-              {
-                "name": "Addresses",
-                "href": "https://design-system.service.gov.uk/patterns/addresses/"
-              },
-              {
-                "name": "Bank details",
-                "href": "https://design-system.service.gov.uk/patterns/bank-details/"
-              },
-              {
-                "name": "Dates",
-                "href": "https://design-system.service.gov.uk/patterns/dates/"
-              },
-              {
-                "name": "Email addresses",
-                "href": "https://design-system.service.gov.uk/patterns/email-addresses/"
-              },
-              {
-                "name": "Equality information",
-                "href": "https://design-system.service.gov.uk/patterns/equality-information/"
-              },
-              {
-                "name": "Gender or sex",
-                "href": "https://design-system.service.gov.uk/patterns/gender-or-sex/"
-              },
-              {
-                "name": "Names",
-                "href": "https://design-system.service.gov.uk/patterns/names/"
-              },
-              {
-                "name": "National Insurance numbers",
-                "href": "https://design-system.service.gov.uk/patterns/national-insurance-numbers/"
-              },
-              {
-                "name": "Passwords",
-                "href": "https://design-system.service.gov.uk/patterns/passwords/"
-              },
-              {
-                "name": "Payment card details",
-                "href": "https://design-system.service.gov.uk/patterns/payment-card-details/"
-              },
-              {
-                "name": "Phone numbers",
-                "href": "https://design-system.service.gov.uk/patterns/phone-numbers/"
-              }
-            ]
-          },
-          {
-            "title": "Help users to…",
-            "links": [
-              {
-                "name": "Check a service is suitable",
-                "href": "https://design-system.service.gov.uk/patterns/check-a-service-is-suitable/"
-              },
-              {
-                "name": "Check answers",
-                "href": "https://design-system.service.gov.uk/patterns/check-answers/"
-              },
-              {
-                "name": "Complete multiple tasks",
-                "href": "https://design-system.service.gov.uk/patterns/complete-multiple-tasks/"
-              },
-              {
-                "name": "Confirm a phone number",
-                "href": "https://design-system.service.gov.uk/patterns/confirm-a-phone-number/"
-              },
-              {
-                "name": "Confirm an email address",
-                "href": "https://design-system.service.gov.uk/patterns/confirm-an-email-address/"
-              },
-              {
-                "name": "Contact a department or service team",
-                "href": "https://design-system.service.gov.uk/patterns/contact-a-department-or-service-team/"
-              },
-              {
-                "name": "Create a username",
-                "href": "https://design-system.service.gov.uk/patterns/create-a-username/"
-              },
-              {
-                "name": "Create accounts",
-                "href": "https://design-system.service.gov.uk/patterns/create-accounts/"
-              },
-              {
-                "name": "Exit a page quickly",
-                "href": "https://design-system.service.gov.uk/patterns/exit-a-page-quickly/"
-              },
-              {
-                "name": "Navigate a service",
-                "href": "https://design-system.service.gov.uk/patterns/navigate-a-service/"
-              },
-              {
-                "name": "Start using a service",
-                "href": "https://design-system.service.gov.uk/patterns/start-using-a-service/"
-              },
-              {
-                "name": "Recover from validation errors",
-                "href": "https://design-system.service.gov.uk/patterns/validation/"
-              }
-            ]
-          },
-          {
-            "title": "Pages",
-            "links": [
-              {
-                "name": "Confirmation pages",
-                "href": "https://design-system.service.gov.uk/patterns/confirmation-pages/"
-              },
-              {
-                "name": "Cookies page",
-                "href": "https://design-system.service.gov.uk/patterns/cookies-page/"
-              },
-              {
-                "name": "Page not found pages",
-                "href": "https://design-system.service.gov.uk/patterns/page-not-found-pages/"
-              },
-              {
-                "name": "There is a problem with the service pages",
-                "href": "https://design-system.service.gov.uk/patterns/problem-with-the-service-pages/"
-              },
-              {
-                "name": "Question pages",
-                "href": "https://design-system.service.gov.uk/patterns/question-pages/"
-              },
-              {
-                "name": "Service unavailable pages",
-                "href": "https://design-system.service.gov.uk/patterns/service-unavailable-pages/"
-              },
-              {
-                "name": "Step by step navigation",
-                "href": "https://design-system.service.gov.uk/patterns/step-by-step-navigation/"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "DWP",
-        "url": "https://design-system.dwp.gov.uk/patterns",
-        "categories": [
-          {
-            "title": "Help users to...",
-            "links": [
-              {
-                "name": "Add another thing",
-                "href": "https://design-system.dwp.gov.uk/patterns/add-another-thing"
-              },
-              {
-                "name": "Choose alternative contact formats",
-                "href": "https://design-system.dwp.gov.uk/patterns/alternative-formats"
-              },
-              {
-                "name": "Contact a service",
-                "href": "https://design-system.dwp.gov.uk/patterns/contact-a-service"
-              },
-              {
-                "name": "Find an address",
-                "href": "https://design-system.dwp.gov.uk/patterns/find-an-address"
-              },
-              {
-                "name": "Make a declaration",
-                "href": "https://design-system.dwp.gov.uk/patterns/make-a-declaration"
-              },
-              {
-                "name": "Manage a session timeout",
-                "href": "https://design-system.dwp.gov.uk/patterns/manage-a-session-timeout"
-              },
-              {
-                "name": "Toggle to Welsh",
-                "href": "https://design-system.dwp.gov.uk/patterns/toggle-to-welsh"
-              }
-            ]
-          },
-          {
-            "title": "Pages",
-            "links": [
-              {
-                "name": "Cookies page",
-                "href": "https://design-system.dwp.gov.uk/patterns/cookies-page/"
-              },
-              {
-                "name": "Internal service page",
-                "href": "https://design-system.dwp.gov.uk/patterns/internal-service-page/"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "ONS",
-        "url": "https://service-manual.ons.gov.uk/design-system/patterns",
-        "categories": [
-          {
-            "title": "Ask users for...",
-            "links": [
-              {
-                "name": "Access codes",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/access-codes"
-              },
-              {
-                "name": "Addresses",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/addresses"
-              },
-              {
-                "name": "Dates",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/dates"
-              },
-              {
-                "name": "Durations",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/durations"
-              },
-              {
-                "name": "Email addresses",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/email-addresses"
-              },
-              {
-                "name": "Feedback",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/feedback"
-              },
-              {
-                "name": "Names",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/names"
-              },
-              {
-                "name": "Numeric values",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/numeric-values"
-              },
-              {
-                "name": "Phone numbers",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/phone-numbers"
-              },
-              {
-                "name": "Relationships",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/relationships"
-              }
-            ]
-          },
-          {
-            "title": "Help users to...",
-            "links": [
-              {
-                "name": "Change language",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/change-language"
-              },
-              {
-                "name": "Check answers",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/check-answers"
-              },
-              {
-                "name": "Control cookies",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/cookies-settings"
-              },
-              {
-                "name": "Correct errors",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/correct-errors"
-              },
-              {
-                "name": "Extend a session",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/extend-session"
-              },
-              {
-                "name": "Save and sign out",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/save-and-sign-out"
-              },
-              {
-                "name": "Send a web form",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/send-a-web-form"
-              },
-              {
-                "name": "Send and reply to messages",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/send-and-reply-to-messages"
-              }
-            ]
-          },
-          {
-            "title": "Pages",
-            "links": [
-              {
-                "name": "Error and status pages",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/error-status-pages"
-              },
-              {
-                "name": "Guide",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/guide"
-              },
-              {
-                "name": "Hub and Spoke",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/hub-and-spoke"
-              },
-              {
-                "name": "News",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/news"
-              },
-              {
-                "name": "Question",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/question"
-              },
-              {
-                "name": "Survey interstitial page",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/survey-interstitial-page"
-              },
-              {
-                "name": "Survey section introduction page",
-                "href": "https://service-manual.ons.gov.uk/design-system/patterns/survey-section-introduction-page"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "HO",
-        "url": "https://design.homeoffice.gov.uk/patterns",
-        "categories": [
-          {
-            "title": "Ask users for",
-            "links": [
-              {
-                "name": "Declarations",
-                "href": "https://design.homeoffice.gov.uk/patterns/make-a-declaration"
-              },
-              {
-                "name": "Information on a document",
-                "href": "https://design.homeoffice.gov.uk/patterns/find-information-on-document"
-              },
-              {
-                "name": "Passport details",
-                "href": "https://design.homeoffice.gov.uk/patterns/enter-passport-details"
-              },
-              {
-                "name": "Scan the chip",
-                "href": "https://design.homeoffice.gov.uk/patterns/enter-passport-details/scan-passport-chip"
-              },
-              {
-                "name": "Take or upload photo",
-                "href": "https://design.homeoffice.gov.uk/patterns/enter-passport-details/take-upload-photo"
-              },
-              {
-                "name": "Manually enter details",
-                "href": "https://design.homeoffice.gov.uk/patterns/enter-passport-details/manually-enter-details"
-              },
-              {
-                "name": "Their sex or gender",
-                "href": "https://design.homeoffice.gov.uk/patterns/ask-sex-or-gender"
-              }
-            ]
-          },
-          {
-            "title": "Help users to",
-            "links": [
-              {
-                "name": "Access a service",
-                "href": "https://design.homeoffice.gov.uk/patterns/access-a-service"
-              },
-              {
-                "name": "Add multiple things",
-                "href": "https://design.homeoffice.gov.uk/patterns/add-multiple-things"
-              },
-              {
-                "name": "Compare information",
-                "href": "https://design.homeoffice.gov.uk/patterns/compare-information"
-              },
-              {
-                "name": "Get more details",
-                "href": "https://design.homeoffice.gov.uk/patterns/get-more-details"
-              },
-              {
-                "name": "Leave a service",
-                "href": "https://design.homeoffice.gov.uk/patterns/leave-a-service"
-              },
-              {
-                "name": "Search for something",
-                "href": "https://design.homeoffice.gov.uk/patterns/search-for-something"
-              },
-              {
-                "name": "Stop a service timing out",
-                "href": "https://design.homeoffice.gov.uk/patterns/stop-a-service-timing-out"
-              }
-            ]
-          },
-          {
-            "title": "Send users",
-            "links": [
-              {
-                "name": "A letter",
-                "href": "https://design.homeoffice.gov.uk/patterns/send-a-letter"
-              }
-            ]
-          }
-        ]
-      }
-      
-    ]
-  }
-  
+  "organisations": [
+    {
+      "name": "NHS",
+      "url": "https://service-manual.nhs.uk/design-system/patterns",
+      "categories": [
+        {
+          "title": "Tasks",
+          "links": [
+            {
+              "name": "Ask users for their NHS number",
+              "href": "https://service-manual.nhs.uk/design-system/patterns/ask-users-for-their-nhs-number"
+            },
+            {
+              "name": "Help users decide when and where to get care (care cards)",
+              "href": "https://service-manual.nhs.uk/design-system/patterns/help-users-decide-when-and-where-to-get-care"
+            },
+            {
+              "name": "Reassure users that a page is up to date",
+              "href": "https://service-manual.nhs.uk/design-system/patterns/reassure-users-that-a-page-is-up-to-date"
+            }
+          ]
+        },
+        {
+          "title": "Page types",
+          "links": [
+            {
+              "name": "A to Z page",
+              "href": "https://service-manual.nhs.uk/design-system/patterns/a-to-z-page"
+            },
+            {
+              "name": "Mini-hub",
+              "href": "https://service-manual.nhs.uk/design-system/patterns/mini-hub"
+            },
+            {
+              "name": "Start page",
+              "href": "https://service-manual.nhs.uk/design-system/patterns/start-page"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MoJ",
+      "url": "https://design-patterns.service.justice.gov.uk/patterns/",
+      "categories": [
+        {
+          "title": "Patterns",
+          "links": [
+            {
+              "name": "Add to a list",
+              "href": "https://design-patterns.service.justice.gov.uk/patterns/add-to-a-list"
+            },
+            {
+              "name": "Filter a list",
+              "href": "https://design-patterns.service.justice.gov.uk/patterns/filter-a-list"
+            },
+            {
+              "name": "Get help",
+              "href": "https://design-patterns.service.justice.gov.uk/patterns/get-help"
+            },
+            {
+              "name": "Upload files",
+              "href": "https://design-patterns.service.justice.gov.uk/patterns/upload-files"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GOV.UK",
+      "url": "https://design-system.service.gov.uk/patterns/",
+      "categories": [
+        {
+          "title": "Ask users for…",
+          "links": [
+            {
+              "name": "Addresses",
+              "href": "https://design-system.service.gov.uk/patterns/addresses/"
+            },
+            {
+              "name": "Bank details",
+              "href": "https://design-system.service.gov.uk/patterns/bank-details/"
+            },
+            {
+              "name": "Dates",
+              "href": "https://design-system.service.gov.uk/patterns/dates/"
+            },
+            {
+              "name": "Email addresses",
+              "href": "https://design-system.service.gov.uk/patterns/email-addresses/"
+            },
+            {
+              "name": "Equality information",
+              "href": "https://design-system.service.gov.uk/patterns/equality-information/"
+            },
+            {
+              "name": "Gender or sex",
+              "href": "https://design-system.service.gov.uk/patterns/gender-or-sex/"
+            },
+            {
+              "name": "Names",
+              "href": "https://design-system.service.gov.uk/patterns/names/"
+            },
+            {
+              "name": "National Insurance numbers",
+              "href": "https://design-system.service.gov.uk/patterns/national-insurance-numbers/"
+            },
+            {
+              "name": "Passwords",
+              "href": "https://design-system.service.gov.uk/patterns/passwords/"
+            },
+            {
+              "name": "Payment card details",
+              "href": "https://design-system.service.gov.uk/patterns/payment-card-details/"
+            },
+            {
+              "name": "Phone numbers",
+              "href": "https://design-system.service.gov.uk/patterns/phone-numbers/"
+            }
+          ]
+        },
+        {
+          "title": "Help users to…",
+          "links": [
+            {
+              "name": "Check a service is suitable",
+              "href": "https://design-system.service.gov.uk/patterns/check-a-service-is-suitable/"
+            },
+            {
+              "name": "Check answers",
+              "href": "https://design-system.service.gov.uk/patterns/check-answers/"
+            },
+            {
+              "name": "Complete multiple tasks",
+              "href": "https://design-system.service.gov.uk/patterns/complete-multiple-tasks/"
+            },
+            {
+              "name": "Confirm a phone number",
+              "href": "https://design-system.service.gov.uk/patterns/confirm-a-phone-number/"
+            },
+            {
+              "name": "Confirm an email address",
+              "href": "https://design-system.service.gov.uk/patterns/confirm-an-email-address/"
+            },
+            {
+              "name": "Contact a department or service team",
+              "href": "https://design-system.service.gov.uk/patterns/contact-a-department-or-service-team/"
+            },
+            {
+              "name": "Create a username",
+              "href": "https://design-system.service.gov.uk/patterns/create-a-username/"
+            },
+            {
+              "name": "Create accounts",
+              "href": "https://design-system.service.gov.uk/patterns/create-accounts/"
+            },
+            {
+              "name": "Exit a page quickly",
+              "href": "https://design-system.service.gov.uk/patterns/exit-a-page-quickly/"
+            },
+            {
+              "name": "Navigate a service",
+              "href": "https://design-system.service.gov.uk/patterns/navigate-a-service/"
+            },
+            {
+              "name": "Start using a service",
+              "href": "https://design-system.service.gov.uk/patterns/start-using-a-service/"
+            },
+            {
+              "name": "Recover from validation errors",
+              "href": "https://design-system.service.gov.uk/patterns/validation/"
+            }
+          ]
+        },
+        {
+          "title": "Pages",
+          "links": [
+            {
+              "name": "Confirmation pages",
+              "href": "https://design-system.service.gov.uk/patterns/confirmation-pages/"
+            },
+            {
+              "name": "Cookies page",
+              "href": "https://design-system.service.gov.uk/patterns/cookies-page/"
+            },
+            {
+              "name": "Page not found pages",
+              "href": "https://design-system.service.gov.uk/patterns/page-not-found-pages/"
+            },
+            {
+              "name": "There is a problem with the service pages",
+              "href": "https://design-system.service.gov.uk/patterns/problem-with-the-service-pages/"
+            },
+            {
+              "name": "Question pages",
+              "href": "https://design-system.service.gov.uk/patterns/question-pages/"
+            },
+            {
+              "name": "Service unavailable pages",
+              "href": "https://design-system.service.gov.uk/patterns/service-unavailable-pages/"
+            },
+            {
+              "name": "Step by step navigation",
+              "href": "https://design-system.service.gov.uk/patterns/step-by-step-navigation/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DWP",
+      "url": "https://design-system.dwp.gov.uk/patterns",
+      "categories": [
+        {
+          "title": "Help users to...",
+          "links": [
+            {
+              "name": "Add another thing",
+              "href": "https://design-system.dwp.gov.uk/patterns/add-another-thing"
+            },
+            {
+              "name": "Choose alternative contact formats",
+              "href": "https://design-system.dwp.gov.uk/patterns/alternative-formats"
+            },
+            {
+              "name": "Contact a service",
+              "href": "https://design-system.dwp.gov.uk/patterns/contact-a-service"
+            },
+            {
+              "name": "Find an address",
+              "href": "https://design-system.dwp.gov.uk/patterns/find-an-address"
+            },
+            {
+              "name": "Make a declaration",
+              "href": "https://design-system.dwp.gov.uk/patterns/make-a-declaration"
+            },
+            {
+              "name": "Manage a session timeout",
+              "href": "https://design-system.dwp.gov.uk/patterns/manage-a-session-timeout"
+            },
+            {
+              "name": "Toggle to Welsh",
+              "href": "https://design-system.dwp.gov.uk/patterns/toggle-to-welsh"
+            }
+          ]
+        },
+        {
+          "title": "Pages",
+          "links": [
+            {
+              "name": "Cookies page",
+              "href": "https://design-system.dwp.gov.uk/patterns/cookies-page/"
+            },
+            {
+              "name": "Internal service page",
+              "href": "https://design-system.dwp.gov.uk/patterns/internal-service-page/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ONS",
+      "url": "https://service-manual.ons.gov.uk/design-system/patterns",
+      "categories": [
+        {
+          "title": "Ask users for...",
+          "links": [
+            {
+              "name": "Access codes",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/access-codes"
+            },
+            {
+              "name": "Addresses",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/addresses"
+            },
+            {
+              "name": "Dates",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/dates"
+            },
+            {
+              "name": "Durations",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/durations"
+            },
+            {
+              "name": "Email addresses",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/email-addresses"
+            },
+            {
+              "name": "Feedback",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/feedback"
+            },
+            {
+              "name": "Names",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/names"
+            },
+            {
+              "name": "Numeric values",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/numeric-values"
+            },
+            {
+              "name": "Phone numbers",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/phone-numbers"
+            },
+            {
+              "name": "Relationships",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/relationships"
+            }
+          ]
+        },
+        {
+          "title": "Help users to...",
+          "links": [
+            {
+              "name": "Change language",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/change-language"
+            },
+            {
+              "name": "Check answers",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/check-answers"
+            },
+            {
+              "name": "Control cookies",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/cookies-settings"
+            },
+            {
+              "name": "Correct errors",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/correct-errors"
+            },
+            {
+              "name": "Extend a session",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/extend-session"
+            },
+            {
+              "name": "Save and sign out",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/save-and-sign-out"
+            },
+            {
+              "name": "Send a web form",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/send-a-web-form"
+            },
+            {
+              "name": "Send and reply to messages",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/send-and-reply-to-messages"
+            }
+          ]
+        },
+        {
+          "title": "Pages",
+          "links": [
+            {
+              "name": "Error and status pages",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/error-status-pages"
+            },
+            {
+              "name": "Guide",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/guide"
+            },
+            {
+              "name": "Hub and Spoke",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/hub-and-spoke"
+            },
+            {
+              "name": "News",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/news"
+            },
+            {
+              "name": "Question",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/question"
+            },
+            {
+              "name": "Survey interstitial page",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/survey-interstitial-page"
+            },
+            {
+              "name": "Survey section introduction page",
+              "href": "https://service-manual.ons.gov.uk/design-system/patterns/survey-section-introduction-page"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HMRC",
+      "url": "https://design.tax.service.gov.uk/hmrc-design-patterns",
+      "categories": [
+        {
+          "title": "Patterns",
+          "links": [
+            {
+              "name": "Accounts office reference",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/accounts-office-reference"
+            },
+            {
+              "name": "Add to a list",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/add-to-a-list"
+            },
+            {
+              "name": "Ask the user for their consent",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/ask-the-user-for-their-consent"
+            },
+            {
+              "name": "Confirmed identity",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/confirmed-identity"
+            },
+            {
+              "name": "Could not confirm identity",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/could-not-confirm-identity"
+            },
+            {
+              "name": "Currency input",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/currency-input"
+            },
+            {
+              "name": "Employer PAYE reference",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/employer-paye-reference"
+            },
+            {
+              "name": "EORI numbers",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/eori-numbers"
+            },
+            {
+              "name": "Feedback",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/feedback"
+            },
+            {
+              "name": "File upload",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/file-upload"
+            },
+            {
+              "name": "Hiding information",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/hiding-information"
+            },
+            {
+              "name": "HMRC banner",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/hmrc-banner"
+            },
+            {
+              "name": "Internal header",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/internal-header"
+            },
+            {
+              "name": "Match an organisation to HMRC records",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/match-an-organisation-to-HMRC-records"
+            },
+            {
+              "name": "Notification badge",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/notification-badge"
+            },
+            {
+              "name": "Page heading",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/page-heading"
+            },
+            {
+              "name": "Page not found",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/page-not-found"
+            },
+            {
+              "name": "Page title",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/page-title"
+            },
+            {
+              "name": "Research banner",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/research-banner"
+            },
+            {
+              "name": "Service timeout",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/service-timeout"
+            },
+            {
+              "name": "Service unavailable",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/service-unavailable"
+            },
+            {
+              "name": "Sign out",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/sign-out"
+            },
+            {
+              "name": "There is a problem with the service",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/there-is-a-problem-with-the-service"
+            },
+            {
+              "name": "Timeline",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/timeline"
+            },
+            {
+              "name": "Unique Taxpayer Reference",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/unique-taxpayer-reference"
+            },
+            {
+              "name": "VAT registration number",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/vat-registration-number"
+            },
+            {
+              "name": "Welsh language toggle",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/welsh-language-toggle"
+            },
+            {
+              "name": "HMRC design patterns archive",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/hmrc-design-patterns-archive"
+            },
+            {
+              "name": "HMRC design patterns backlog",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/hmrc-design-patterns-backlog"
+            },
+            {
+              "name": "Installing HMRC Frontend in your prototype",
+              "href": "https://design.tax.service.gov.uk/hmrc-design-patterns/install-hmrc-frontend-in-your-prototype"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HO",
+      "url": "https://design.homeoffice.gov.uk/patterns",
+      "categories": [
+        {
+          "title": "Ask users for",
+          "links": [
+            {
+              "name": "Declarations",
+              "href": "https://design.homeoffice.gov.uk/patterns/make-a-declaration"
+            },
+            {
+              "name": "Information on a document",
+              "href": "https://design.homeoffice.gov.uk/patterns/find-information-on-document"
+            },
+            {
+              "name": "Passport details",
+              "href": "https://design.homeoffice.gov.uk/patterns/enter-passport-details"
+            },
+            {
+              "name": "Scan the chip",
+              "href": "https://design.homeoffice.gov.uk/patterns/enter-passport-details/scan-passport-chip"
+            },
+            {
+              "name": "Take or upload photo",
+              "href": "https://design.homeoffice.gov.uk/patterns/enter-passport-details/take-upload-photo"
+            },
+            {
+              "name": "Manually enter details",
+              "href": "https://design.homeoffice.gov.uk/patterns/enter-passport-details/manually-enter-details"
+            },
+            {
+              "name": "Their sex or gender",
+              "href": "https://design.homeoffice.gov.uk/patterns/ask-sex-or-gender"
+            }
+          ]
+        },
+        {
+          "title": "Help users to",
+          "links": [
+            {
+              "name": "Access a service",
+              "href": "https://design.homeoffice.gov.uk/patterns/access-a-service"
+            },
+            {
+              "name": "Add multiple things",
+              "href": "https://design.homeoffice.gov.uk/patterns/add-multiple-things"
+            },
+            {
+              "name": "Compare information",
+              "href": "https://design.homeoffice.gov.uk/patterns/compare-information"
+            },
+            {
+              "name": "Get more details",
+              "href": "https://design.homeoffice.gov.uk/patterns/get-more-details"
+            },
+            {
+              "name": "Leave a service",
+              "href": "https://design.homeoffice.gov.uk/patterns/leave-a-service"
+            },
+            {
+              "name": "Search for something",
+              "href": "https://design.homeoffice.gov.uk/patterns/search-for-something"
+            },
+            {
+              "name": "Stop a service timing out",
+              "href": "https://design.homeoffice.gov.uk/patterns/stop-a-service-timing-out"
+            }
+          ]
+        },
+        {
+          "title": "Send users",
+          "links": [
+            {
+              "name": "A letter",
+              "href": "https://design.homeoffice.gov.uk/patterns/send-a-letter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
