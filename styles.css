@@ -12,14 +12,13 @@ body.light-mode {
     color: #206fe6;
 }
 
-.light-mode a, a:visited{
+.light-mode a{
     color: #206fe6;
     text-decoration: none;
 }
 
-
-
 .light-mode #organisationNames a {
+    color: #206fe6;
     text-decoration: none;
 }
 
@@ -54,8 +53,12 @@ body.light-mode {
 .organisation-links a {
     text-decoration: none;
 }
-.organisation-links a:hover {
-    text-decoration: underline;
+
+a:hover, 
+footer a:hover, 
+.organisation-links a:hover,
+#organisationNames a:hover  {
+    color: #7625e1; /* Ensure footer links are also visible in dark mode */
 }
 
 /* Toggle Switch Styles */
@@ -132,11 +135,13 @@ footer {
     border-top: 1px solid #ddd;
     max-width: 800px;
 }
+
 a, footer a {
     color: #00BFFF; /* Ensure footer links are also visible in dark mode */
     transition: color 0.3s;
 }
-a:hover, footer a:hover {
+
+.dark-mode a:hover, footer a:hover {
     color: #FFD700; /* Gold on hover */
 }
 
